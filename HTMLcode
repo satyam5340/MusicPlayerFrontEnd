@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="MusicPlayer.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<!-- INSTRUCTIONS FOR SEE THE ELEMENTS
+	1. PLEASE CLICK ON THIRD LATEST RELEASE TO SEE THE PLAYER BOTTOM -->
+<body>
+	
+	 <div id="widget-top">
+		<div id="logo-container">
+			<div id="logo" class="page-color">
+				<i class="fas fa-angry"></i>
+
+			</div>
+			<div id="name">
+				<div id="first">Ninja</div>
+			 
+				<div id="second">Studio</div>
+			</div>
+		</div>
+		
+		<div id="fav">
+			Favourites
+		</div>
+		
+		<div id="top-right-widget">
+			<div id="search-bar">
+				<button type="submit" class="search-bar-ele">
+					<i class="fas fa-search"></i>
+				</button>
+				<input type="text" placeholder="Search" class="search-bar-ele">
+				<button type="submit" class="search-bar-ele">
+					<i class="fas fa-microphone"></i>
+				</button>
+			</div>
+			<button type="submit" id="bell">
+				<i class="fas fa-bell"></i>
+			</button>
+			<div>
+				<img src="https://www.cheatsheet.com/wp-content/uploads/2020/04/Drake-2.jpg">
+			</div>
+		</div>
+		
+	</div>
+	
+	<section id="all-happenings">
+		<div id="card-container">
+			<div class="card" id="card1">
+				<img src="https://www.lyricsbell.com/wp-content/uploads/2020/02/pind-sidhu-moose-wala.jpg">
+			</div>
+			<div class="card" id="card2">
+				<img src="maxresdefault.jpg">
+			</div>
+			<div class="card" id="card3">
+				<img src="https://cdn1.thr.com/sites/default/files/imagecache/768x433/2015/10/adele_hello_video_3_h_2015.jpg">
+			</div>
+		</div>
+		<section id="latest">
+			<div class="heading">Latest Release</div>
+			<div id="latest-container">
+				
+				<div id="latest-songs">
+					<div class="thumbnail">
+						<img src="chuttersnap-Ti7zg9omwdE-unsplash.jpg">
+						<div id="pause"><i class="fas fa-pause"></i></div>
+					</div>
+					<div>
+						<div id="latest-song-name">Elan</div>
+						<div id="latest-song-date">AUG 12,2019</div>
+					</div>
+					<div id="ellipsis">
+						<a href="#popup-box1"><i class="fas fa-ellipsis-h"></i></a>
+						<div>4:44</div>
+					</div>
+					<div id="popup-box1" style="color:dimgrey">
+						<a href="#">X</a>
+						<div id="popup-box-options">
+						<div><i class="fas fa-play"></i><span>Play Now</span></div>
+						<div><i class="fas fa-list"></i><span>Add To Queue</span></div>
+						<div><i class="fas fa-plus"></i><span>Add to Favourites</span></div>
+						<div><i class="fas fa-info-circle"></i><span>info</span></div>
+					</div>
+					</div>
+
+				</div>
+				<div id="latest-songs">
+					<div class="thumbnail">
+						<img src="clark-van-der-beken-QSbvSq_sCVs-unsplash.jpg">
+						<div id="pause"><i class="fas fa-pause"></i></div>
+					</div>
+					<div>
+						<div id="latest-song-name">Siddhu</div>
+						<div id="latest-song-date">NOV 16,2019</div>
+					</div>
+					<div id="ellipsis">
+						<a href="#popup-box2"><i class="fas fa-ellipsis-h"></i></a>
+						<div>4:44</div>
+					</div>
+					<div id="popup-box2" style="color:dimgrey">
+						<a href="#" >X</a>
+						<div id="popup-box-options">
+						<div><i class="fas fa-play"></i><span>Play Now</span></div>
+						<div><i class="fas fa-list"></i><span>Add To Queue</span></div>
+						<div><i class="fas fa-plus"></i><span>Add to Favourites</span></div>
+						<div><i class="fas fa-info-circle"></i><span>info</span></div>
+					</div>
+					</div>
+
+				</div>
+				
+				<div id="latest-songs">
+					<div class="thumbnail">
+						<img src="elijah-hail-5ofap-Ch7No-unsplash.jpg">
+						<div id="pause"><i class="fas fa-pause"></i></div><a href="#player"></a>
+					</div>
+					<div>
+						<div id="latest-song-name">Bebe</div>
+						<div id="latest-song-date">MAY 24,2019</div>
+					</div>
+					<div id="ellipsis">
+						<a href="#popup-box3"><i class="fas fa-ellipsis-h"></i></a>
+						<div>4:44</div>
+					</div>
+					<div id="popup-box3" style="color:dimgrey">
+						<a href="#">X</a>
+						<div id="popup-box-options">
+						<div><i class="fas fa-play"></i><span>Play Now</span></div>
+						<div><i class="fas fa-list"></i><span>Add To Queue</span></div>
+						<div><i class="fas fa-plus"></i><span>Add to Favourites</span></div>
+						<div><i class="fas fa-info-circle"></i><span>info</span></div>
+					</div>
+					</div>
+
+				</div>
+				<div id="latest-songs">
+					<div class="thumbnail">
+						<img src="marc-babin-ZWRDRbPuMns-unsplash.jpg">
+						<div id="pause"><i class="fas fa-pause"></i></div>
+					</div>
+					<div>
+						<div id="latest-song-name">Tyga</div>
+						<div id="latest-song-date">APR 27,2019</div>
+					</div>
+					<div id="ellipsis">
+						<a href="#popup-box4"><i class="fas fa-ellipsis-h"></i></a>
+						<div>4:44</div>
+					</div>
+					<div id="popup-box4" style="color:dimgrey">
+						<a href="#">X</a>
+						<div id="popup-box-options">
+						<div><i class="fas fa-play"></i><span>Play Now</span></div>
+						<div><i class="fas fa-list"></i><span>Add To Queue</span></div>
+						<div><i class="fas fa-plus"></i><span>Add to Favourites</span></div>
+						<div><i class="fas fa-info-circle"></i><span>info</span></div>
+					</div>
+					</div>
+
+				</div>
+			</div>
+
+		</section>
+		<section id="popular-artist">
+			<div class="heading">Popular Artists</div>
+			<div id="artist-container">
+			
+				<div id="artist-box">
+					<a id="artist-playlist" href="playlist.html" target="_blank">
+
+					<img src="https://www.somagnews.com/wp-content/uploads/2020/03/20-e1583433319418-696x390.jpg">
+					<div id="artist-name">Zayn</div>
+					</a>
+				</div>
+			
+				<div id="artist-box">
+					<a id="artist-playlist" href="playlist.html" target="_blank">
+					<img src="https://www.funkidslive.com/wp-content/uploads/2016/01/Sheeran.jpg">
+					<div id="artist-name">Ed Sheeran</div>
+					</a>
+				</div>
+				<div id="artist-box">
+					<a id="artist-playlist" href="playlist.html" target="_blank">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Bebe_Rexha_2019_-3_by_Glenn_Francis.jpg/800px-Bebe_Rexha_2019_-3_by_Glenn_Francis.jpg"><div id="artist-name">Bebe</div>
+					</a>
+				</div>
+				<div id="artist-box">
+					<a id="artist-playlist" href="playlist.html" target="_blank">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Post_Malone_2018.jpg/800px-Post_Malone_2018.jpg">
+					<div id="artist-name" >Post Malone</div>
+					</a>
+				</div>
+				<div id="artist-box">
+					<a id="artist-playlist" href="playlist.html" target="_blank">
+					<img src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTQ3NjM5MTEzMTc5MjEwODI2/eminem_photo_by_dave_j_hogan_getty_images_entertainment_getty_187596325.jpg">
+					<div id="artist-name">Eminem</div>
+					</a>
+				</div> 
+
+			</div>
+		</section>
+		<section id="genere">
+			<div id="radio">
+				<div id="genere-circles">
+					<img src="jr-korpa-PzSHXg5DyJU-unsplash.jpg">
+					<div id="tag">Love</div>
+				</div>
+				<div id="genere-circles">
+					<img src="https://imgix.bustle.com/mic/b5ee5a524ec62d1b208c701ceaf299a21acfb2f9ac34484c14c5267efd1a1e2a.jpg?w=414&h=233&fit=crop&crop=faces&auto=format%2Ccompress&cs=srgb&q=70">
+					<div id="tag">Retro</div>
+				</div>
+				<div id="genere-circles">
+					<img src="https://cdn1.coachmag.co.uk/sites/coachmag/files/styles/16x9_760/public/2017/01/workout-music.jpg?itok=f1s-mIIt&timestamp=1484148211">
+					<div id="tag">Pump</div>
+				</div>
+				<div id="genere-circles">
+					<img src="http://pop-music-cult.com/wp-content/uploads/2017/06/Screenshot-2017-06-15-09.11.40.png">
+					<div id="tag">Pop</div>
+				</div>
+				<div id="genere-circles">
+					<img src="https://img.wonderhowto.com/img/original/33/72/63486082219427/0/634860822194273372.jpg">
+					<div id="tag">Old</div>
+				</div>
+
+			</div>
+		</section>
+		<section id="mode">
+			<div class="mode-box">
+				<img src="https://visualhunt.com/photos/1/people-walking-towards-eiffel-tower-at-night.jpg?s=l">
+				<div id="tag">Party</div>
+			</div>
+			<div class="mode-box">
+				<image src="https://www.ecopetit.cat/wpic/mpic/6-63949_electronic-music.jpg">
+				<div id="tag">Relax</div>
+			</div>
+			
+			<div class="mode-box">
+				<img src="https://images.unsplash.com/photo-1528304270437-714a2d6fbb6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
+				<div id="tag">Electronic</div>
+			</div>
+			<div class="mode-box">
+				<img src="https://images.unsplash.com/photo-1528304270437-714a2d6fbb6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
+				<div id="tag">Workout</div>
+			</div>
+		</section>
+		<section id="latest-lang">
+			<div class="heading">Popular Artists</div>
+			<div id="holder">
+				<div id="album-box">
+					<div id="album">
+						<img src="lina-white-dyEdu6fqZn0-unsplash.jpg">
+					</div>
+					<div id="album-data" class="grey">
+						<div id="name-album">Chester</div>
+						<div id="small-date">AUG 12,2019</div>
+					</div>
+				</div>
+                <div id="album-box">
+					<div id="album">
+						<img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+					</div>
+					<div id="album-data" class="grey">
+						<div id="name-album">Justin</div>
+						<div id="small-date">APR 17,2019</div>
+					</div>
+				</div>
+				<div id="album-box">
+					<div id="album">
+						<img src="jr-korpa-PzSHXg5DyJU-unsplash.jpg">
+					</div>
+					<div id="album-data" class="grey">
+						<div id="name-album">Zayn</div>
+						<div id="small-date">SEPT 02,2019</div>
+					</div>
+				</div>
+				<div id="album-box">
+					<div id="album">
+						<img src="anastasia-mezenina-pxieo8MOQiM-unsplash.jpg">
+					</div>
+					<div id="album-data" class="grey">
+						<div id="name-album">Tyga</div>
+						<div id="small-date">NOV 07,2019</div>
+					</div>
+				</div>
+				<div id="album-box">
+					<div id="album">
+						<img src="marc-babin-ZWRDRbPuMns-unsplash.jpg">
+					</div>
+					<div id="album-data" class="grey">
+						<div id="name-album">Lil Pump</div>
+						<div id="small-date">OCT 23,2019</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="latest-lang">
+			<div class="heading">Popular Artists</div>
+			<div id="holder">
+				<div id="album-box">
+					<div id="album">
+						<img src="marc-babin-ZWRDRbPuMns-unsplash.jpg">
+					</div>
+					<div id="album-data" class="grey">
+						<div id="name-album">Sonu Nigam</div>
+						<div id="small-date">JAN 26,2020</div>
+					</div>
+				</div>
+                <div id="album-box">
+					<div id="album">
+						<img src="caroline-dIWb2unN4ow-unsplash.jpg">
+					</div>
+					<div id="album-data" class="grey">
+						<div id="name-album">Siddhu</div>
+						<div id="small-date">FEB 17,2019</div>
+					</div>
+				</div>
+				<div id="album-box">
+					<div id="album">
+						<img src="michael-podger-VBBL6X4Lf3w-unsplash.jpg">
+					</div>
+					<div id="album-data" class="grey">
+						<div id="name-album">B Praak</div>
+						<div id="small-date">DEC 15,2019</div>
+					</div>
+				</div>
+				<div id="album-box">
+					<div id="album">
+						<img src="valeria-bold-WgWuA2tug2U-unsplash.jpg">
+					</div>
+					<div id="album-data" class="grey">
+						<div id="name-album">Arijit Singh</div>
+						<div id="small-date">AUG 12,2019</div>
+					</div>
+				</div>
+				<div id="album-box">
+					<div id="album">
+						<img src="anastasia-mezenina-pxieo8MOQiM-unsplash.jpg">
+					</div>
+					<div id="album-data" class="grey">
+						<div id="name-album">Jaani</div>
+						<div id="small-date">MAR 07,2019</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+	</section>
+	
+
+		<div id="side-queue" style="border:2px solid">
+			<div id="queue-heading">
+				<h2>Queue</h2>
+				<span id="span-queue">Queue</span>
+				<div id="popup-box5">
+					<a href="#" style="color:white">X</a>
+					<div id="popup-box-content">Playlists</div>
+					<div id="popup-box-content">Favourite Songs</div>
+				</div>
+				<a href="#popup-box5"><span style="margin-right:2rem;"><i class="fas fa-chevron-down"></i></span></a>
+
+			</div>
+			<div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			<div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="lina-white-dyEdu6fqZn0-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="lina-white-dyEdu6fqZn0-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="maxresdefault.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="maxresdefault.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="nika-akin-QrSnNnYDwpA-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="maxresdefault.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="nika-akin-QrSnNnYDwpA-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="nika-akin-QrSnNnYDwpA-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="elijah-hail-5ofap-Ch7No-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="maxresdefault.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="elijah-hail-5ofap-Ch7No-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div><div class="queued-song ">
+
+				<div>01</div>
+				<div id="song-thumbnail"><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				<div id="pause"><i class="fas fa-pause"></i></div>
+				</div>
+				<div>
+					<div id="Song">Mirage</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+		</div>
+	
+	
+		
+	
+	<div id="player">
+		<a href="#" style="position:absolute; top:0;">X</a>
+		<div class="queued-song player-song">
+				<div>01</div>
+				<div><img src="gregory-hayes-OD42l1mYKK8-unsplash.jpg">
+				</div>
+				<div>
+					<div id="Song">Mirage By John Lenon</div>
+					<div id="artist">Elan</div>
+				</div>
+				<div id="heart">
+					<i class="far fa-heart"></i>
+				</div>
+				
+			
+		</div>
+		<div id="player-bar-container">
+
+			<div class="Player-icons">
+				<i class="fas fa-forward"></i>
+				<i class="far fa-pause-circle" style="font-size:2rem"></i>
+					<i class="fas fa-backward"></i>
+				<i class="fas fa-redo"></i>
+			</div>
+			<input type="range" id="player-bar" min="1" max="100" value="27">
+
+		</div>
+		<div id="sider-with-icons">
+			<i class="fas fa-list"></i>
+			<i class="fas fa-laptop"></i>
+			<i class="fas fa-volume-up"></i>
+			<input type="range" min="1" max="100" value="47">
+
+		</div>
+	</div> 
+
+</body>
+</html>
